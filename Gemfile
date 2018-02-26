@@ -53,7 +53,7 @@ group :development do
 end
 
 group :production do
-  gem 'pg', '~>0.11'
+  gem 'pg'
   # gem 'rails_12factor' no caso de estar a utilizar rails 4.x.x, como estou a usar o 5 nao e preciso
 end
 
